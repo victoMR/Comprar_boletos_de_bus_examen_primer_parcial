@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="64dp"
+    android:backgroundTint="@color/black"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textSize="22dp"
+        android:textCursorDrawable="@color/black"
+        android:textAppearance="@color/cardview_light_background"
+        android:textColorHighlight="@color/cardview_light_background"
+        android:fontFamily="serif"
+        android:textStyle="bold"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/tvBoletos"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvBoletos"
+        android:drawableLeft="@drawable/baseline_directions_bus_24"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+
+    <EditText
+        android:id="@+id/etBoletos"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="8"
+        android:fontFamily="monospace"
+        android:hint="@string/etBoletos"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        android:maxLength="3"
+        android:drawableLeft="@drawable/baseline_person_add_alt_1_24"
+        android:inputType="number"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+
+    <TextView
+        android:id="@+id/tvDestino"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tvDestino"
+        android:drawableLeft="@drawable/baseline_directions_24"
+        android:textSize="24sp"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/rgDestino"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+        <RadioButton
+            android:id="@+id/rbTequisquiapan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/rbTequisquiapan"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/rbQro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/rbQro"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/rbCiudadMexico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/rbCiudadMexico"
+            android:textSize="18sp"/>
+    </RadioGroup>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"/>
+
+    <CheckBox
+        android:id="@+id/cbLunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cbLunch"
+        android:drawableLeft="@drawable/baseline_lunch_dining_24"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/btnCalcular"
+        android:textStyle="bold"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp"/>
+
+    <TextView
+        android:id="@+id/tvResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+</LinearLayout>

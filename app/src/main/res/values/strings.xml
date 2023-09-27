@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Pedir boletos de Bus</string>
+    <string name="tvBoletos">¿ Cuantos Boletos ?</string>
+    <string name="etBoletos">1</string>
+    <string name="tvDestino">¿ A donde ?</string>
+    <string name="rbTequisquiapan">Tequisquiapan $45.00</string>
+    <string name="rbQro">Queretaro $80.00</string>
+    <string name="rbCiudadMexico">Ciudad de Mexico $450.00</string>
+    <string name="cbLunch">¿ Lunch ?</string>
+    <string name="btnCalcular">Calcular</string>
+
+</resources>
